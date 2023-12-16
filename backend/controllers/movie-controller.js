@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken"
-import Movie from "../models/Movie";
-import Admin from "../models/Admin";
+import Movie from "../models/Movie.js";
+import Admin from "../models/Admin.js";
 import mongoose from "mongoose";
 
 export const addMovie = async(req,res,next)=>{
