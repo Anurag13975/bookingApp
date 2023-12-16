@@ -1,0 +1,21 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "1. Introduction\r 2. Install tools\r 3. Create react-app\r 4. Create git repository",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../movies && npm install && npm run build",
+    "start": "node backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurag13975/bookingApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurag13975/bookingApp/issues"
+  },
+  "homepage": "https://github.com/Anurag13975/bookingApp#readme"
+}
