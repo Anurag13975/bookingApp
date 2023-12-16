@@ -1,4 +1,4 @@
-import Bookings from "../models/Bookings";
+import Bookings from "../models/Bookings.js";
 import Movie from "../models/Movie.js";
 import User from "../models/User.js";
 import mongoose from "mongoose";
