@@ -21,7 +21,7 @@ app.use('/booking', bookingsRouter);
 
 mongoose
   .connect(
-    `mongodb+srv://admin:${process.env.MONGODB_PASSWORD}@cluster0.ofjxcsi.mongodb.net/test?retryWrites=true&w=majority`
+    process.env.MONGODB_URI
   )
   .then(() =>
     app.listen(5000, () => {
