@@ -1,10 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import userRouter from './routes/user-routes';
 import adminRouter from './routes/admin-routes';
 import movieRouter from './routes/movie-routes';
 import bookingsRouter from './routes/booking-routes';
+import userRouter from './routes/user-routes';
 import cors from 'cors';
 
 dotenv.config();
