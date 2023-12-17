@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../movies && npm install && npm run build",
-    "start": "cd backend && node backend/app.js && cd ../movies && npm start",
+    "start": "node backend/app.js && cd ../movies && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
