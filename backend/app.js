@@ -20,9 +20,7 @@ app.use('/movie', movieRouter);
 app.use('/booking', bookingsRouter);
 
 mongoose
-  .connect(
-    process.env.MONGODB_URI
-  )
+  .connect(process.env.MONGODB_URI)
   .then(() =>
     app.listen(5000, () => {
       console.log(`connected to database and server is running`);
